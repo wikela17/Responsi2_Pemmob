@@ -27,3 +27,19 @@ Berikut adalah tahapan dari mulai autentikasi login menggunakan akun Google hing
  6. Penyimpanan dan Penggunaan Data
    - Data yang diperoleh dapat disimpan sementara di aplikasi, seperti di `state` atau `local storage` agar tetap tersedia selama sesi pengguna berlangsung.
    - Aplikasi dapat menggunakan data ini untuk menampilkan nama pengguna di bagian header atau profil dan mempersonalisasi pengalaman pengguna di dalam aplikasi.
+
+Tampilan Halaman:
+![Screenshot 2024-11-18 191528](https://github.com/user-attachments/assets/16920fb6-9c2f-475e-a86d-c39043673c7b)
+
+Halaman Login ini memungkinkan pengguna untuk melakukan autentikasi dengan akun Google. Saat pengguna menekan tombol Login with Google, aplikasi memulai proses autentikasi yang diarahkan ke halaman login Google. Setelah berhasil login, aplikasi akan menerima data seperti username, email, dan foto profil.
+
+
+![Screenshot 2024-11-18 192020](https://github.com/user-attachments/assets/fafd5e8d-8029-47eb-a553-012e18c3c94f)
+
+Pada halaman Home, pengguna akan melihat tampilan utama aplikasi setelah berhasil login. Halaman ini menyajikan informasi dasar serta navigasi menuju halaman lain seperti Profil
+
+
+![Screenshot 2024-11-18 192034](https://github.com/user-attachments/assets/006f9a3b-c96b-4ffa-b58a-881f52616c5b)
+
+Halaman Profil menampilkan informasi pribadi yang diambil dari akun Google pengguna, termasuk nama, email, dan foto profil. Informasi ini diperoleh setelah autentikasi dan diambil menggunakan token akses dari Google. Pengguna dapat melihat informasi pribadi mereka di sini, yang disinkronkan secara otomatis dengan akun Google.
+
