@@ -11,17 +11,17 @@
         </ion-header>
         <ion-content>
             <ion-item>
-                <ion-input v-model="todo.title" label="Title" label-placement="floating"
-                    placeholder="Enter Title"></ion-input>
+                <ion-input v-model="todo.title" label="Resep" label-placement="floating"
+                    placeholder="Enter Resep"></ion-input>
             </ion-item>
             <ion-item>
-                <ion-textarea v-model="todo.description" label="Description" label-placement="floating"
-                    placeholder="Enter Description" :autogrow="true" :rows="3"></ion-textarea>
+                <ion-textarea v-model="todo.description" label="Cara Memasak" label-placement="floating"
+                    placeholder="Enter Cara Memasak" :autogrow="true" :rows="3"></ion-textarea>
             </ion-item>
             <ion-row>
                 <ion-col>
                     <ion-button type="button" @click="input" shape="round" color="primary" expand="block">
-                        {{ editingId ? 'Edit' : 'Add' }} Todo
+                        {{ editingId ? 'Edit' : 'Add' }} Resep
                     </ion-button>
                 </ion-col>
             </ion-row>

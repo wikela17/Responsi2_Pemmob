@@ -86,7 +86,7 @@ export const firestoreService = {
             const docRef = doc(todoRef, id);
             await deleteDoc(docRef);
         } catch (error) {
-            console.error('Error Delete Todo:', error);
+            console.error('Ezrror Delete Todo:', error);
             throw error;
         }
     },
